@@ -1,0 +1,21 @@
+Frequent 1 - itemsets: 
+	46: {60}
+
+	30: {30}
+
+Total number of Frequent 1 sets: 2
+
+Frequent 2-itemsets: 
+	18: {['10', '60']}
+Tail count : 18
+	20: {['30', '60']}
+Tail count : 20
+	22: {['30', '70']}
+Tail count : 22
+	27: {['60', '70']}
+Tail count : 27
+	46: {['60', '50']}
+Tail count : 46
+
+Total number of frequent 2 itemsets: 5
+
