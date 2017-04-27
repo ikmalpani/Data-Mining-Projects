@@ -1,0 +1,53 @@
+Only ROMNEY oversampling:
+
+Obama: 
+Overall Acurracy:  0.55048692978 
+
+Precision of positive class: 0.574713
+Recall of positive class: 0.515464
+F1-Score of positive class: 0.543478 
+
+Precision of negative class: 0.571805
+Recall of negative class: 0.630814
+F1-Score of negative class: 0.599862 
+
+Romney:
+Overall Acurracy:  0.581578947368 
+
+Precision of positive class: 0.478448
+Recall of positive class: 0.576623
+F1-Score of positive class: 0.522968 
+
+Precision of negative class: 0.627907
+Recall of negative class: 0.787500
+F1-Score of negative class: 0.698706 
+
+Total time taken: 139.96 seconds
+
+
+
+ROMNEY and OBAMA oversampling:
+
+Obama: 
+Overall Acurracy:  0.552537160431 
+
+Precision of positive class: 0.562950
+Recall of positive class: 0.537801
+F1-Score of positive class: 0.550088 
+
+Precision of negative class: 0.576769
+Recall of negative class: 0.627907
+F1-Score of negative class: 0.601253 
+
+Romney:
+Overall Acurracy:  0.580526315789 
+
+Precision of positive class: 0.478723
+Recall of positive class: 0.584416
+F1-Score of positive class: 0.526316 
+
+Precision of negative class: 0.626137
+Recall of negative class: 0.788542
+F1-Score of negative class: 0.698018 
+
+Total time taken: 256.44 seconds
