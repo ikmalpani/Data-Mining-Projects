@@ -1,0 +1,325 @@
+1. SVM:
+
+Obama:
+Accuracy:  0.496163682864
+
+Precision of positive class: 0.555556
+Recall of positive class: 0.336134
+F1-Score of positive class: 0.418848
+
+Precision of negative class: 0.540373
+Recall of negative class: 0.587838
+F1-Score of negative class: 0.563107
+
+Average F1 Score:  0.490977481828
+
+Romney:
+Accuracy:  0.573684210526
+
+Precision of positive class: 0.538462
+Recall of positive class: 0.094595
+F1-Score of positive class: 0.160920
+
+Precision of negative class: 0.572271
+Recall of negative class: 0.941748
+F1-Score of negative class: 0.711927
+
+Average F1 Score:  0.436423072867
+
+2. Decision Tree:
+
+Obama:
+Acurracy:  0.442455242967
+Precision of positive class: 0.363014
+Recall of positive class: 0.445378
+F1-Score of positive class: 0.400000
+
+Precision of negative class: 0.536765
+Recall of negative class: 0.493243
+F1-Score of negative class: 0.514085
+
+Average F1 Score:  0.457042253521
+
+Romney:
+Accuracy:  0.478947368421
+
+Precision of positive class: 0.322034
+Recall of positive class: 0.256757
+F1-Score of positive class: 0.285714
+
+Precision of negative class: 0.590909
+Recall of negative class: 0.631068
+F1-Score of negative class: 0.610329
+
+Average F1 Score:  0.448021462106
+
+3. Gaussian Naive Bayes:
+
+Obama:
+Acurracy:  0.429667519182
+Precision of positive class: 0.388571
+Recall of positive class: 0.571429
+F1-Score of positive class: 0.462585
+
+Precision of negative class: 0.503546
+Recall of negative class: 0.479730
+F1-Score of negative class: 0.491349
+
+Average F1 Score:  0.476967257491
+
+Romney:
+Accuracy:  0.484210526316
+
+Precision of positive class: 0.354167
+Recall of positive class: 0.459459
+F1-Score of positive class: 0.400000
+
+Precision of negative class: 0.679245
+Recall of negative class: 0.524272
+F1-Score of negative class: 0.591781
+
+Average F1 Score:  0.495890410959
+
+4. Logistic Regression:
+
+Obama:
+Acurracy:  0.50895140665
+Precision of positive class: 0.483516
+Recall of positive class: 0.369748
+F1-Score of positive class: 0.419048
+
+Precision of negative class: 0.576923
+Recall of negative class: 0.608108
+F1-Score of negative class: 0.592105
+
+Average F1 Score:  0.505576441103
+
+Romney:
+Accuracy:  0.605263157895
+
+Precision of positive class: 0.608696
+Recall of positive class: 0.189189
+F1-Score of positive class: 0.288660
+
+Precision of negative class: 0.608553
+Recall of negative class: 0.898058
+F1-Score of negative class: 0.725490
+
+Average F1 Score:  0.507074994946
+
+5. Adaboost:
+
+Obama:
+Acurracy:  0.470588235294
+Precision of positive class: 0.506024
+Recall of positive class: 0.352941
+F1-Score of positive class: 0.415842
+
+Precision of negative class: 0.631579
+Recall of negative class: 0.405405
+F1-Score of negative class: 0.493827
+
+Average F1 Score:  0.454834372326
+
+Romney:
+Accuracy:  0.557894736842
+
+Precision of positive class: 0.444444
+Recall of positive class: 0.324324
+F1-Score of positive class: 0.375000
+
+Precision of negative class: 0.596491
+Recall of negative class: 0.825243
+F1-Score of negative class: 0.692464
+
+Average F1 Score:  0.533732179226
+
+6. Random Forest:
+
+Obama:
+Acurracy:  0.452685421995
+Precision of positive class: 0.396947
+Recall of positive class: 0.436975
+F1-Score of positive class: 0.416000
+
+Precision of negative class: 0.524823
+Recall of negative class: 0.500000
+F1-Score of negative class: 0.512111
+
+Average F1 Score:  0.464055363322
+
+Romney:
+Accuracy:  0.581578947368
+
+Precision of positive class: 0.472222
+Recall of positive class: 0.229730
+F1-Score of positive class: 0.309091
+
+Precision of negative class: 0.617978
+Recall of negative class: 0.800971
+F1-Score of negative class: 0.697674
+
+Average F1 Score:  0.503382663848
+
+7. Bernoulli Naive Bayes:
+
+Obama:
+Acurracy:  0.488491048593
+Precision of positive class: 0.419753
+Recall of positive class: 0.571429
+F1-Score of positive class: 0.483986
+
+Precision of negative class: 0.589147
+Recall of negative class: 0.513514
+F1-Score of negative class: 0.548736
+
+Average F1 Score:  0.516361113609
+
+Romney:
+Accuracy:  0.581578947368
+
+Precision of positive class: 0.619048
+Recall of positive class: 0.175676
+F1-Score of positive class: 0.273684
+
+Precision of negative class: 0.591054
+Recall of negative class: 0.898058
+F1-Score of negative class: 0.712909
+
+Average F1 Score:  0.49329682588
+
+8. Multinomial Naive Bayes:
+
+Obama:
+Acurracy:  0.503836317136
+Precision of positive class: 0.500000
+Recall of positive class: 0.394958
+F1-Score of positive class: 0.441315
+
+Precision of negative class: 0.549383
+Recall of negative class: 0.601351
+F1-Score of negative class: 0.574194
+
+Average F1 Score:  0.507754051189
+
+Romney:
+Accuracy:  0.586842105263
+
+Precision of positive class: 0.545455
+Recall of positive class: 0.081081
+F1-Score of positive class: 0.141176
+
+Precision of negative class: 0.588957
+Recall of negative class: 0.932039
+F1-Score of negative class: 0.721805
+
+Average F1 Score:  0.431490490933
+
+9. Stochastic Gradient Descent:
+
+Obama:
+Acurracy:  0.470588235294
+Precision of positive class: 0.416667
+Recall of positive class: 0.420168
+F1-Score of positive class: 0.418410
+
+Precision of negative class: 0.539474
+Recall of negative class: 0.554054
+F1-Score of negative class: 0.546667
+
+Average F1 Score:  0.482538354254
+
+Romney:
+Accuracy:  0.568421052632
+
+Precision of positive class: 0.467742
+Recall of positive class: 0.391892
+F1-Score of positive class: 0.426471
+
+Precision of negative class: 0.680751
+Recall of negative class: 0.703883
+F1-Score of negative class: 0.692124
+
+Average F1 Score:  0.559297346624
+
+10. Neural Networks - Multi Layer Perceptron:
+
+Obama:
+Acurracy:  0.447570332481
+Precision of positive class: 0.406780
+Recall of positive class: 0.403361
+F1-Score of positive class: 0.405063
+
+Precision of negative class: 0.509804
+Recall of negative class: 0.527027
+F1-Score of negative class: 0.518272
+
+Average F1 Score:  0.461667858194
+
+Romney:
+Accuracy:  0.557894736842
+
+Precision of positive class: 0.400000
+Recall of positive class: 0.378378
+F1-Score of positive class: 0.388889
+
+Precision of negative class: 0.689655
+Recall of negative class: 0.679612
+F1-Score of negative class: 0.684597
+
+Average F1 Score:  0.536742732953
+
+11.  Nearest Neighbors:
+
+Obama:
+Acurracy:  0.317135549872
+Precision of positive class: 0.300562
+Recall of positive class: 0.899160
+F1-Score of positive class: 0.450526
+
+Precision of negative class: 0.476190
+Recall of negative class: 0.067568
+F1-Score of negative class: 0.118343
+
+Average F1 Score:  0.284434755528
+
+Romney:
+Accuracy:  0.557894736842
+
+Precision of positive class: 0.555556
+Recall of positive class: 0.202703
+F1-Score of positive class: 0.297030
+
+Precision of negative class: 0.593220
+Recall of negative class: 0.849515
+F1-Score of negative class: 0.698603
+
+Average F1 Score:  0.497816248691
+
+
+Final Obama:
+Final Accuracy:  0.488491048593
+
+Precision of positive class: 0.428571
+Recall of positive class: 0.478992
+F1-Score of positive class: 0.452381
+
+Precision of negative class: 0.569444
+Recall of negative class: 0.554054
+F1-Score of negative class: 0.561644
+
+Average F1 Score:  0.507012393999
+
+
+Final Romney:
+Final Accuracy:  0.597368421053
+
+Precision of positive class: 0.555556
+Recall of positive class: 0.202703
+F1-Score of positive class: 0.297030
+
+Precision of negative class: 0.609272
+Recall of negative class: 0.893204
+F1-Score of negative class: 0.724409
+
+Average F1 Score:  0.510719575895

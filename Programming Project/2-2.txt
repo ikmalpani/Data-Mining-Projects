@@ -1,0 +1,51 @@
+Frequent 1 - itemsets: 
+	468: {2}
+
+	802: {6}
+
+	808: {17}
+
+	703: {37}
+
+	381: {4}
+
+	451: {16}
+
+	678: {19}
+
+	775: {43}
+
+	419: {10}
+
+	404: {26}
+
+	667: {28}
+
+	484: {32}
+
+Total number of Frequent 1 sets: 12
+
+Frequent 2-itemsets: 
+	169: {('2', '16')}
+Tail count : 169
+	202: {['2', '19']}
+Tail count : 202
+	151: {['2', '33']}
+Tail count : 151
+	222: {['2', '37']}
+Tail count : 222
+	165: {['4', '28']}
+Tail count : 165
+	194: {['10', '19']}
+Tail count : 194
+	150: {['10', '32']}
+Tail count : 150
+	150: {['10', '33']}
+Tail count : 150
+	183: {['10', '28']}
+Tail count : 183
+	205: {['10', '37']}
+Tail count : 205
+
+Total number of frequent 2 itemsets: 10
+
