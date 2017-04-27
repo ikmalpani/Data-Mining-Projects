@@ -38,8 +38,8 @@ df_romney = pd.read_excel(trainingFile,sheetname='Romney')
 
 #Removing the mixed class and the !!! class
 
-df_obama = df_obama[(df_obama['Class'].isin((1,-1,0)))]
-df_romney = df_romney[(df_romney['Class'].isin((1,-1,0)))]
+df_obama = df_obama[(df_obama['Class'].isin((1,-1)))]
+df_romney = df_romney[(df_romney['Class'].isin((1,-1)))]
 
 #creating lists for raw tweets and classes
 

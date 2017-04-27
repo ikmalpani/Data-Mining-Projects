@@ -45,8 +45,8 @@ df_romney = pd.read_excel(trainingFile,sheetname='Romney')
 
 #Removing the mixed class and the !!! class
 
-df_obama = df_obama[(df_obama['Class'].isin((1,-1)))]
-df_romney = df_romney[(df_romney['Class'].isin((1,-1)))]
+df_obama = df_obama[(df_obama['Class'].isin((1,-1,0)))]
+df_romney = df_romney[(df_romney['Class'].isin((1,-1,0)))]
 
 #creating lists for raw tweets and classes
 
@@ -84,8 +84,8 @@ df_romney_test = pd.read_excel(testingFile,sheetname='Romney')
 
 #Removing the mixed class and the !!! class
 
-df_obama_test = df_obama_test[(df_obama_test['Class'].isin((1,-1)))]
-df_romney_test = df_romney_test[(df_romney_test['Class'].isin((1,-1)))]
+df_obama_test = df_obama_test[(df_obama_test['Class'].isin((1,-1,0)))]
+df_romney_test = df_romney_test[(df_romney_test['Class'].isin((1,-1,0)))]
 
 #creating lists for raw tweets and classes
 
@@ -149,25 +149,25 @@ for i in range(2):
 '''
 Output:
 
-Obama: 
-Overall Acurracy:  0.725984251969 
+Obama:
+Overall Acurracy:  0.580727831881
 
-Precision of positive class: 0.687500
-Recall of positive class: 0.737113
-F1-Score of positive class: 0.711443 
+Precision of positive class: 0.543027
+Recall of positive class: 0.628866
+F1-Score of positive class: 0.582803
 
-Precision of negative class: 0.763158
-Recall of negative class: 0.716570
-F1-Score of negative class: 0.739130 
+Precision of negative class: 0.600846
+Recall of negative class: 0.619186
+F1-Score of negative class: 0.609878
 
 Romney:
-Overall Acurracy:  0.776208178439 
+Overall Acurracy:  0.516842105263
 
-Precision of positive class: 0.677966
-Recall of positive class: 0.415584
-F1-Score of positive class: 0.515298 
+Precision of positive class: 0.582524
+Recall of positive class: 0.311688
+F1-Score of positive class: 0.406091
 
-Precision of negative class: 0.797115
-Recall of negative class: 0.920833
-F1-Score of negative class: 0.854519
+Precision of negative class: 0.554225
+Recall of negative class: 0.819792
+F1-Score of negative class: 0.661345
 '''

@@ -1,0 +1,173 @@
+BernoulliNB(alpha=1.0, binarize=0.0, class_prior=None, fit_prior=True)
+Obama: 
+Overall Acurracy:  0.536647872886 
+
+Precision of positive class: 0.527190
+Recall of positive class: 0.599656
+F1-Score of positive class: 0.561093 
+
+Precision of negative class: 0.581395
+Recall of negative class: 0.581395
+F1-Score of negative class: 0.581395 
+
+Romney:
+Overall Acurracy:  0.559473684211 
+
+Precision of positive class: 0.414414
+Recall of positive class: 0.716883
+F1-Score of positive class: 0.525214 
+
+Precision of negative class: 0.680401
+Recall of negative class: 0.636458
+F1-Score of negative class: 0.657696 
+
+Total time taken: 0.50 seconds 
+
+
+SVC(C=0.81, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.58, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Obama: 
+Overall Acurracy:  0.55048692978 
+
+Precision of positive class: 0.589212
+Recall of positive class: 0.487973
+F1-Score of positive class: 0.533835 
+
+Precision of negative class: 0.556675
+Recall of negative class: 0.642442
+F1-Score of negative class: 0.596491 
+
+Romney:
+Overall Acurracy:  0.588421052632 
+
+Precision of positive class: 0.535294
+Recall of positive class: 0.472727
+F1-Score of positive class: 0.502069 
+
+Precision of negative class: 0.601322
+Recall of negative class: 0.853125
+F1-Score of negative class: 0.705426 
+
+Total time taken: 197.02 seconds 
+
+
+DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=0, splitter='best')
+Obama: 
+Overall Acurracy:  0.479241414659 
+
+Precision of positive class: 0.460420
+Recall of positive class: 0.489691
+F1-Score of positive class: 0.474604 
+
+Precision of negative class: 0.517986
+Recall of negative class: 0.523256
+F1-Score of negative class: 0.520607 
+
+Romney:
+Overall Acurracy:  0.513157894737 
+
+Precision of positive class: 0.373757
+Recall of positive class: 0.488312
+F1-Score of positive class: 0.423423 
+
+Precision of negative class: 0.623232
+Recall of negative class: 0.642708
+F1-Score of negative class: 0.632821 
+
+Total time taken: 19.58 seconds 
+
+
+RandomForestClassifier(bootstrap=True, class_weight=None, criterion='entropy',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            n_estimators=10, n_jobs=10, oob_score=False, random_state=None,
+            verbose=0, warm_start=False)
+Obama: 
+Overall Acurracy:  0.503331624808 
+
+Precision of positive class: 0.480620
+Recall of positive class: 0.532646
+F1-Score of positive class: 0.505297 
+
+Precision of negative class: 0.539886
+Recall of negative class: 0.550872
+F1-Score of negative class: 0.545324 
+
+Romney:
+Overall Acurracy:  0.557894736842 
+
+Precision of positive class: 0.417373
+Recall of positive class: 0.511688
+F1-Score of positive class: 0.459743 
+
+Precision of negative class: 0.628647
+Recall of negative class: 0.740625
+F1-Score of negative class: 0.680057 
+
+Total time taken: 2.80 seconds 
+
+
+LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+Obama: 
+Overall Acurracy:  0.553049718093 
+
+Precision of positive class: 0.553663
+Recall of positive class: 0.558419
+F1-Score of positive class: 0.556031 
+
+Precision of negative class: 0.588983
+Recall of negative class: 0.606105
+F1-Score of negative class: 0.597421 
+
+Romney:
+Overall Acurracy:  0.566842105263 
+
+Precision of positive class: 0.417077
+Recall of positive class: 0.659740
+F1-Score of positive class: 0.511066 
+
+Precision of negative class: 0.652256
+Recall of negative class: 0.722917
+F1-Score of negative class: 0.685771 
+
+Total time taken: 0.25 seconds 
+
+
+SGDClassifier(alpha=0.0001, average=False, class_weight=None, epsilon=0.1,
+       eta0=0.0, fit_intercept=True, l1_ratio=0.15,
+       learning_rate='optimal', loss='hinge', n_iter=5, n_jobs=1,
+       penalty='l2', power_t=0.5, random_state=None, shuffle=True,
+       verbose=0, warm_start=False)
+Obama: 
+Overall Acurracy:  0.531522296258 
+
+Precision of positive class: 0.557730
+Recall of positive class: 0.489691
+F1-Score of positive class: 0.521500 
+
+Precision of negative class: 0.631890
+Recall of negative class: 0.466570
+F1-Score of negative class: 0.536789 
+
+Romney:
+Overall Acurracy:  0.526315789474 
+
+Precision of positive class: 0.358191
+Recall of positive class: 0.761039
+F1-Score of positive class: 0.487116 
+
+Precision of negative class: 0.687882
+Recall of negative class: 0.585417
+F1-Score of negative class: 0.632527 
+
+Total time taken: 0.71 seconds 
